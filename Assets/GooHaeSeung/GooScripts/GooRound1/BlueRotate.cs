@@ -31,7 +31,7 @@ public class BlueRotate : MonoBehaviour
         if (isCollided == false && col.gameObject.name == "RedDaak")
         {
             this.transform.Rotate(0, 0, -90);
-            Invoke("onemoretime", 0.1f);
+            Invoke("onemoretime", 0.5f);
             print("hit");
 
             StartCoroutine(RedWin());

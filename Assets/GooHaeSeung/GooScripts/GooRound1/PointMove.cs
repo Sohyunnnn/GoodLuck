@@ -21,7 +21,7 @@ public class PointMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.gm.gstate != GameManager.GameState.Run)
+        if (GooGameManager.gm.gstate != GooGameManager.GameState.Run)
         {
             return;
         }
@@ -41,12 +41,7 @@ public class PointMove : MonoBehaviour
                 sign *= -1;
             }
 
-        //  if (transform.position.x <= minX ||
-          //      transform.position.x >= maxX)
-           // {
-           //     sign *= -1;
-
-            //}
+ 
         }
 
         if (transform.position.x >= PinkStickScale.StickA &&
