@@ -1,12 +1,9 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GooBad : MonoBehaviour
 {
-    public float rotSpeed = 200f;
-    float mx = 0;
-    float my = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -24,4 +21,4 @@ public class GooBad : MonoBehaviour
     {
         GooGameBackMusic.GooMusic = -1;
     }
-}*/
+}
