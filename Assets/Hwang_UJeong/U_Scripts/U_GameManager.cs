@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class UGameManager : MonoBehaviour
+public class U_GameManager : MonoBehaviour
 {
-    public static UGameManager gm;
+    public static U_GameManager gm;
 
     [SerializeField]
     private int minutes;
