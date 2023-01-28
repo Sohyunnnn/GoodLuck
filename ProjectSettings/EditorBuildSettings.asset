@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GooHaeSeung/GooScenes/GooWin.unity
     guid: fdddf08cec8c94f4aa5babef8fa290b5
+  - enabled: 1
+    path: Assets/GooHaeSeung/GooScenes/GooBadEnding.unity
+    guid: eefe2f9d27b216243b241cd39b605a94
+  - enabled: 1
+    path: Assets/GooHaeSeung/GooScenes/GooHPEnding.unity
+    guid: 12b550576a8ca184492c6a87bc18bd3d
+  - enabled: 1
+    path: Assets/GooHaeSeung/GooScenes/GooHos.unity
+    guid: 3e649326c4ffed3459e5a4a14b3fd556
   m_configObjects: {}

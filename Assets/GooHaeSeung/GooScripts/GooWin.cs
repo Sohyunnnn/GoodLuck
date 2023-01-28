@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GooWin : MonoBehaviour
 {
@@ -15,5 +16,10 @@ public class GooWin : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Ending()
+    {
+        SceneManager.LoadScene("GooHPEnding");
     }
 }
