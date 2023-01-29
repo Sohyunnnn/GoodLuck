@@ -36,14 +36,14 @@ public class Talk : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.Log("collision2");
+            Invoke("nextScene", 0.5f);
+        }
         if (other.tag == "Player")
         {
             transform.LookAt(other.transform);
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                Debug.Log("collision2");
-                Invoke("nextScene", 0.5f);
-            }
         }
     }
 
