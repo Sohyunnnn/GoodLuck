@@ -9,6 +9,10 @@ public class BasicRigidBodyPush : MonoBehaviour
 	private void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 		if (canPush) PushRigidBodies(hit);
+		if (hit.collider.name.Contains("Stone"))
+		{
+			Destroy(hit.collider.gameObject, 2);
+		}
 	}
 
 	private void PushRigidBodies(ControllerColliderHit hit)
